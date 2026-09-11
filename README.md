@@ -1,4 +1,4 @@
-# 🎛️ Touchless Gesture Volume Controller
+# Touchless Gesture Volume Controller
 
 A real-time Computer Vision application that uses AI-powered hand tracking to control your computer's master volume through natural hand gestures. 
 
@@ -6,17 +6,16 @@ This repository documents my first hands-on engineering journey into spatial com
 
 ---
 
-## ⚡ The Core Problem & Solution
+## The Core Problem & Solution
 * **The Challenge:** Traditional volume controls require physical keyboards, mice, or sliders, which can be inefficient during presentations or media playback.
 * **The Engineering Solution:** By tracking the Euclidean distance between a user's **Thumb** (Landmark 4) and **Index Finger** (Landmark 8), this Python script accurately maps physical hand coordinates to system audio levels (0% to 100%) with minimal latency.
 
 ---
 
-## 🚀 Live Demonstration & System Architecture
+## Live Demonstration & System Architecture
 
-### 📹 System Output in Action
-<!-- You can delete the line below and drag/drop your screenshot or GIF directly here! -->
-> 🎮 *[Insert your project screenshot or running GIF here]*
+### System Output in Action
+
 
 ### 🧩 How the Data Flows
 1. **Frame Capture:** OpenCV pulls raw video matrices from the host webcam at 30+ FPS.
@@ -26,7 +25,7 @@ This repository documents my first hands-on engineering journey into spatial com
 
 ---
 
-## 🛠️ Production Tech Stack
+## Production Tech Stack
 * **Core Language:** Python
 * **Computer Vision Framework:** OpenCV (Open Source Computer Vision Library)
 * **Machine Learning Pipeline:** Google MediaPipe (Hand Landmarking Topology)
@@ -34,24 +33,20 @@ This repository documents my first hands-on engineering journey into spatial com
 
 ---
 
-## 📂 Project Structure & Implementation
+## Project Structure & Implementation
 
 The entire pipeline is neatly containerized within a single, highly readable script for ease of testing:
 
-```text
-├── main.py              # Main application executing the loop, CV framework, and audio mapping
-└── README.md            # Project technical architecture documentation
+```
 ```
 
-> ⚙️ *The fully written production script is uploaded right above this documentation in the `main.py` file.*
-
+]
 ---
 
-## 💡 Key Personal Learning Takeaways
+## Key Personal Learning Takeaways
 As a beginner in software engineering, building this project taught me critical foundation blocks:
 * **Environment Management:** Resolving package dependencies and working with libraries like OpenCV.
 * **Data Pipelines:** Understanding how real-time matrix data (video frames) is transformed into spatial coordinates.
 * **Algorithmic Logic:** Working with mathematical ranges to translate physical distances into software commands.
 
 ***
-*Built as a guided educational deep-dive into AI applications. Special thanks to the open-source community and YouTube educators for paving the way for beginners.*
