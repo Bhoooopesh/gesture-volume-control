@@ -14,9 +14,11 @@ This repository documents my first hands-on engineering journey into spatial com
 ## Live Demonstration & System Architecture
 
 ### System Output in Action
+
 ## Max Volume ( Distance between two fingers is more)
 <img width="1244" height="1280" alt="volume up" src="https://github.com/user-attachments/assets/1bc2e8e7-e0ec-44c3-b4e9-7dac6f6433d4" />
-## Low Volume ( Distance between two fingers is less)
+
+## Low Volume (Distance between two fingers is less)
 <img width="1280" height="1247" alt="volume down" src="https://github.com/user-attachments/assets/a46725a0-0788-4720-aa2e-ce42cdaeb087" />
 
 
